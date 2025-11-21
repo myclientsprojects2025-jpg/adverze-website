@@ -17,7 +17,12 @@ const sora = Sora({
 export const metadata: Metadata = {
   title: "Adverze - Digital That Makes a Difference | Digital Marketing Agency in Namakkal",
   description: "Strategic. Creative. Performance-Driven. Adverze is a digital marketing agency based in Namakkal, serving clients across Tamilnadu. We blend strategy, creativity, and tech to unlock your brand's potential.",
-  viewport: "width=device-width, initial-scale=1, maximum-scale=5",
+};
+
+export const viewport = {
+  width: 'device-width',
+  initialScale: 1,
+  maximumScale: 5,
 };
 
 export default function RootLayout({
