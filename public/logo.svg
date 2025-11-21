@@ -1,0 +1,17 @@
+<svg width="200" height="60" viewBox="0 0 200 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Letter A with gradient -->
+  <path d="M20 10L35 50H30L27 42H23L20 50H15L20 10Z" fill="url(#logoGradient)"/>
+  <path d="M23.5 38H26.5L25 32L23.5 38Z" fill="white"/>
+  
+  <!-- Text "dverze" -->
+  <text x="40" y="42" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="#1F2937">
+    dverze
+  </text>
+  
+  <defs>
+    <linearGradient id="logoGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#8B5CF6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#7C3AED;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+</svg>
