@@ -4,7 +4,7 @@ interface ButtonProps {
   children: React.ReactNode;
   href?: string;
   onClick?: () => void;
-  variant?: 'primary' | 'secondary' | 'outline';
+  variant?: 'primary' | 'secondary' | 'outline' | 'yellow';
   size?: 'sm' | 'md' | 'lg';
   className?: string;
 }
@@ -20,9 +20,10 @@ export default function Button({
   const baseStyles = 'inline-flex items-center justify-center font-semibold rounded-full transition-all transform hover:scale-105 hover:shadow-lg';
   
   const variants = {
-    primary: 'bg-purple-600 hover:bg-purple-700 text-white',
-    secondary: 'bg-emerald-500 hover:bg-emerald-600 text-white',
-    outline: 'border-2 border-purple-600 text-purple-600 hover:bg-purple-600 hover:text-white dark:border-purple-400 dark:text-purple-400 dark:hover:bg-purple-400 dark:hover:text-white',
+    primary: 'bg-[#bc9131] hover:bg-[#9a7628] text-[#1f151a]',
+    secondary: 'bg-[#d4a845] hover:bg-[#bc9131] text-[#1f151a]',
+    yellow: 'bg-[#bc9131] hover:bg-[#9a7628] text-[#1f151a]',
+    outline: 'border-2 border-[#bc9131] text-[#bc9131] hover:bg-[#bc9131] hover:text-[#1f151a]',
   };
 
   const sizes = {
